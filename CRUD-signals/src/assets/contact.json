@@ -1,0 +1,12 @@
+[
+  { "id": 1, "name": "John Doe", "email": "john.doe@example.com", "phone": "123-456-7890" },
+  { "id": 2, "name": "Jane Smith", "email": "jane.smith@example.com", "phone": "098-765-4321" },
+  { "id": 3, "name": "Alice Johnson", "email": "alice.johnson@example.com", "phone": "555-123-4567" },
+  { "id": 4, "name": "Bob Brown", "email": "bob.brown@example.com", "phone": "111-222-3333" },
+  { "id": 5, "name": "Charlie Davis", "email": "charlie.davis@example.com", "phone": "444-555-6666" },
+  { "id": 6, "name": "Eve Wilson", "email": "eve.wilson@example.com", "phone": "777-888-9999" },
+  { "id": 7, "name": "Frank Miller", "email": "frank.miller@example.com", "phone": "333-444-5555" },
+  { "id": 8, "name": "Grace Lee", "email": "grace.lee@example.com", "phone": "222-333-4444" },
+  { "id": 9, "name": "Hannah Taylor", "email": "hannah.taylor@example.com", "phone": "666-777-8888" },
+  { "id": 10, "name": "Ian Anderson", "email": "ian.anderson@example.com", "phone": "999-000-1111" }
+]
