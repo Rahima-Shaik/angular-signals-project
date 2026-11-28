@@ -6,11 +6,10 @@ import { MatListModule } from '@angular/material/list';
 import { ApiService } from '../../services/api.service';
 
 @Component({
-  selector: 'app-contacts-list',
-  standalone: true,
-  imports: [CommonModule,MatListModule],
-  templateUrl: './contacts-list.component.html',
-  styleUrl: './contacts-list.component.css'
+    selector: 'app-contacts-list',
+    imports: [CommonModule, MatListModule],
+    templateUrl: './contacts-list.component.html',
+    styleUrl: './contacts-list.component.css'
 })
 export class ContactsListComponent {
   contacts = signal<Contact[]>([]);
