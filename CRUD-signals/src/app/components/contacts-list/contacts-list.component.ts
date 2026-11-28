@@ -3,6 +3,7 @@ import { Contact } from '../../model/contact';
 import { HttpClient } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 import { MatListModule } from '@angular/material/list';
+import { ApiService } from '../../services/api.service';
 
 @Component({
   selector: 'app-contacts-list',
@@ -14,10 +15,10 @@ import { MatListModule } from '@angular/material/list';
 export class ContactsListComponent {
   contacts = signal<Contact[]>([]);
 
-  http = inject(HttpClient);
+  service = inject(ApiService);
 
   ngOnInit() {
-    this.http.get<Contact[]>('/assets/contact.json').subscribe((data: Contact[]) => {
+    this.service.getContacts().subscribe((data: Contact[]) => {
       this.contacts.set(data);
       console.log('Contacts loaded:', data);
     });
